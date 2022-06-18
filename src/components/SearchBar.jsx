@@ -4,7 +4,6 @@ import s from './styles/css/searchBar.module.css'
 export default function SearchBar(props) {
   // acá va tu código
   const [city, setCity] = useState('');
-
   return (
     <div className={s.navBar}>
       <div className={s.searchBar}>

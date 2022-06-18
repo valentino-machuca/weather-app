@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import s from './styles/css/City.module.css'
 
 export default function Ciudad({city}) {
-    console.log(city);
     return (
         <div className={s.ciudad}>
             <div className={s.city}>

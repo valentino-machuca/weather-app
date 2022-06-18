@@ -8,7 +8,6 @@ import City from '../components/City';
 
 function App() {
   const [cities, setCities] = useState([]);
-  
 
   function onSearch(ciudad) {
     let exist = false;
@@ -81,12 +80,6 @@ function App() {
     );
 
   return root;
-
-    // <div className="App">
-    //     <Nav onSearch={onSearch}/>
-    //     {/* <About/> */}
-    //     {/* <Cards cities={cities} onClose={onClose}/> */}
-    // </div>
 }
 
 export default App;
